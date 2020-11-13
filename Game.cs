@@ -41,6 +41,8 @@ namespace Simple_Game
             Bitmap bmp_Object = new Bitmap(myStream);
 
             picDisplay.Image = bmp_Object;
+           
+            //code to display sound in picture box on button click  
 
             System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(Properties.Resources.gun_cocking_01);
 
@@ -66,6 +68,8 @@ namespace Simple_Game
             Bitmap bmp_Object = new Bitmap(myStream);
 
             picDisplay.Image = bmp_Object;
+          
+            //code to display sound in picture box on button click  
 
             System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(Properties.Resources.gun_chamber);
 
@@ -96,6 +100,8 @@ namespace Simple_Game
             Bitmap bmp_Object = new Bitmap(myStream);
 
             picDisplay.Image = bmp_Object;
+
+            //code to display sound in picture box on button click  
 
             System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(Properties.Resources.gun_gunshot_01);
 
@@ -138,7 +144,9 @@ namespace Simple_Game
 
             Bitmap bmp_Object = new Bitmap(myStream);
 
-            picDisplay.Image = bmp_Object;
+          picDisplay.Image = bmp_Object;
+            
+            //code to display sound in picture box on button click  
 
             System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(Properties.Resources.shootsound);
 

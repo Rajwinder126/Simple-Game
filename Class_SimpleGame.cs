@@ -8,9 +8,9 @@ namespace Simple_Game
 {
   public  class Class_SimpleGame
     {
-        public int load_position;
-        public int spin_position;
-        public int shoot_position;
+        public int load_position; //to tell the datatype
+        public int spin_position; //to tell the datatype
+        public int shoot_position;//to tell the datatype
         public int chance = 0;
 
         public void load()
